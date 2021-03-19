@@ -1,4 +1,6 @@
 const http = require('http');
+app.use(require('./routes/users.js'));
+
 
 http.createServer(function (request, response) {
    target = process.env.TARGET ? process.env.TARGET : 'World' ;
