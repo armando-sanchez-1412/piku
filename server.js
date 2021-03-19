@@ -1,11 +1,4 @@
 const http = require('http');
-const express = require("express");
-const app = express(); // create express app
-const path = require("path");
-app.use(require('./routes/users.js'));
-
-
-app.use(express.static(path.join(__dirname, '/client/build')));
 
 http.createServer(function (request, response) {
    target = process.env.TARGET ? process.env.TARGET : 'World' ;
