@@ -1,4 +1,6 @@
 const http = require('http');
+const express = require("express");
+const app = express(); // create express app
 app.use(require('./routes/users.js'));
 
 
