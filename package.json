@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd client && npm run build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@carbon/icons-react": "^10.22.0",
+    "carbon-components": "^10.25.0",
+    "carbon-components-react": "^7.25.0",
+    "carbon-icons": "^7.0.7",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
+}
